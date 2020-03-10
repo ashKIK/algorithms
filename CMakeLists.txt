@@ -5,5 +5,3 @@ set(CMAKE_CXX_STANDARD 20)
 
 set(SOURCE_FILES graph)
 set(SOURCE_FILES advance-data-structures)
-
-add_executable(algorithms advance-data-structures/cartesian_tree.cxx)

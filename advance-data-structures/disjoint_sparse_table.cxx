@@ -50,7 +50,7 @@ struct DisjointSparseTable {
   }
 };
 
-template<class T, class Op>
-auto makeDisjointSparseTable(vector<T> xs, Op op) {
-  return DisjointSparseTable<T, Op>(xs, op);
+template<class T, class Operator>
+auto makeDisjointSparseTable(vector<T> xs, Operator op) {
+  return DisjointSparseTable<T, Operator>(xs, op);
 }
