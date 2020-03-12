@@ -3,8 +3,8 @@
 //
 // Time Complexity:
 //
-//   O(|bits|) for all operations.
-//   O(1) pop.
+//  O(|bits|) for all operations.
+//  O(1) pop.
 //
 
 #include <iostream>
